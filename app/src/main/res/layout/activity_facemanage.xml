@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/edit2"
+            android:onClick="btnSelectAllList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All"/>
+        <Button
+            android:id="@+id/edit3"
+            android:onClick="btnNoList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"/>
+        <Button
+            android:id="@+id/edit4"
+            android:onClick="btnfanxuanList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Op"/>
+        <Button
+            android:id="@+id/edit5"
+            android:onClick="btnOperateList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+
+
+</LinearLayout>
